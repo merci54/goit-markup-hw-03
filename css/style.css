@@ -206,13 +206,13 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-/* .about-item .section-title {
+.about-item .section-title {
   text-align: left;
 }
 
 .about-item .section-text {
   text-align: left;
-} */
+}
 
 .section-title {
   font-weight: 500;
