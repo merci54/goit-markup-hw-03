@@ -206,6 +206,14 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.about-item .section-title {
+  text-align: left;
+}
+
+.about-item .section-text {
+  text-align: left;
+}
+
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -243,14 +251,6 @@ button {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-
-/* .team-item .section-title {
-  text-align: center;
-}
-
-.team-item .section-text {
-  text-align: center;
-} */
 
 .team-item-container {
   display: flex;
