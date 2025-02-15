@@ -59,13 +59,19 @@ button {
 
 /*#region Header*/
 
-.header-container {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -78,6 +84,7 @@ button {
   color: #4d5ae5;
 
   padding: 24px 0;
+  margin-right: 76px;
 }
 
 .logo-text {
@@ -87,7 +94,6 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .nav .nav-item {
@@ -166,6 +172,8 @@ button {
   padding: 16px 32px;
   border-radius: 4px;
   margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -177,8 +185,14 @@ button {
 
 /* #region About */
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .about-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -192,6 +206,9 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .section-text {
@@ -199,6 +216,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+  text-align: center;
 }
 
 /* #endregion About */
@@ -217,6 +236,15 @@ button {
 
 .team-item {
   flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 0;
 }
 
 .team-title {
@@ -228,14 +256,6 @@ button {
   color: #2e2f42;
 
   margin-bottom: 72px;
-}
-
-.team-item-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  padding: 32px 16px;
 }
 
 .team-list li {
@@ -261,6 +281,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item-title {
@@ -269,6 +290,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  margin-bottom: 8px;
 }
 
 .portfolio-list-container {
@@ -305,6 +328,11 @@ button {
   padding: 100px 0;
 }
 
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-logo-text {
   color: #f4f4fd;
 }
@@ -314,7 +342,6 @@ button {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 
-  margin-top: 16px;
   max-width: 264px;
 }
 /* #endregion Footer */
