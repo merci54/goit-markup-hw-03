@@ -242,10 +242,11 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-section-title {
+.team-item .section-title {
   text-align: center;
 }
-.team-section-text {
+
+.team-item .section-text {
   text-align: center;
 }
 
