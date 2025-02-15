@@ -242,13 +242,13 @@ button {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item .section-title {
+/* .team-item .section-title {
   text-align: center;
 }
 
 .team-item .section-text {
   text-align: center;
-}
+} */
 
 .team-item-container {
   display: flex;
