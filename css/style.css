@@ -1,7 +1,16 @@
+/* #region Main */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -9,11 +18,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
+h6,
 p {
   margin: 0;
   padding: 0;
@@ -46,6 +51,10 @@ button {
   padding: 0 15px;
 }
 
+/* #endregion Main */
+
+/*#region Header*/
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -53,7 +62,6 @@ button {
 
 .nav {
   display: flex;
-  gap: 76px;
 }
 
 .logo {
@@ -75,6 +83,7 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .nav .nav-item {
@@ -118,6 +127,9 @@ button {
   color: #404bbf;
 }
 
+/*#endregion Header*/
+
+/* #region Hero */
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -157,10 +169,17 @@ button {
   background-color: #404bbf;
 }
 
+/* #endregion Hero */
+
+/* #region About */
+
+.about {
+  padding: 120px 0;
+}
+
 .about-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .about-item {
@@ -182,11 +201,12 @@ button {
   color: #434455;
 }
 
+/* #endregion About */
+
+/* #region Team */
+
 .team {
   background-color: #f4f4fd;
-}
-
-.team-container {
   padding: 120px 0;
 }
 
@@ -223,7 +243,11 @@ button {
   background-color: #ffffff;
 }
 
-.portfolio-container {
+/* #endregion Team */
+
+/* #region Portfolio */
+
+.portfolio {
   padding: 120px 0;
 }
 
@@ -271,6 +295,10 @@ button {
   color: #434455;
 }
 
+/* #endregion Portfolio */
+
+/* #region Footer */
+
 .footer {
   background-color: #2e2f42;
   color: #ffffff;
@@ -294,3 +322,4 @@ button {
   margin-top: 16px;
   max-width: 264px;
 }
+/* #endregion Footer */
