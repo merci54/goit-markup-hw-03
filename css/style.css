@@ -253,7 +253,6 @@ button {
 .team-item-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 8px;
   padding: 32px 0;
 }
