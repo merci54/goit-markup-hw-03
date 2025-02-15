@@ -51,6 +51,10 @@ button {
   padding: 0 15px;
 }
 
+.section {
+  padding: 120px 0;
+}
+
 /* #endregion Main */
 
 /*#region Header*/
@@ -173,10 +177,6 @@ button {
 
 /* #region About */
 
-.about {
-  padding: 120px 0;
-}
-
 .about-list {
   display: flex;
   gap: 24px;
@@ -207,7 +207,6 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
 
 .team-list {
@@ -246,10 +245,6 @@ button {
 /* #endregion Team */
 
 /* #region Portfolio */
-
-.portfolio {
-  padding: 120px 0;
-}
 
 .portfolio-title {
   font-size: 36px;
