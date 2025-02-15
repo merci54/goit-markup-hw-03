@@ -196,6 +196,7 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .about-list {
   display: flex;
   flex-wrap: wrap;
@@ -253,9 +254,6 @@ button {
 }
 
 .team-item-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   padding: 32px 0;
 }
 
@@ -308,9 +306,6 @@ button {
 
 .portfolio-list-container {
   padding: 32px 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
   align-items: flex-start;
 
   border-left: 1px solid #e7e9fc;
@@ -336,10 +331,6 @@ button {
   padding: 100px 0;
 }
 
-.footer-container {
-  padding: 100px 0;
-}
-
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -356,4 +347,5 @@ button {
 
   max-width: 264px;
 }
+
 /* #endregion Footer */
